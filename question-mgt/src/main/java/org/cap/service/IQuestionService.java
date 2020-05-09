@@ -16,4 +16,7 @@ public interface IQuestionService {
 	
 	Questions findById(BigInteger testId);
 
+	Questions save(Questions question);
+
+
 }
